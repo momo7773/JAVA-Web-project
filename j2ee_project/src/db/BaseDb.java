@@ -7,7 +7,7 @@ import com.sun.javaws.*;
 public class BaseDb  {
     private String url = "jdbc:mysql://127.0.0.1:3306/j2ee_project?useUnicode=true&characterEncoding=utf-8";
     private String user = "root";
-    private String pwd = "Ilove1869and27";
+    private String pwd = "";
     private Connection conn=null;
     private Statement stmt=null;
     public BaseDb() {
